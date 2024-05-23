@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+       
         * {
             font-family: roboto, sans-serif;
         }
 
+    
         #topbox {
             display: flex;
             flex-direction: column;
@@ -28,12 +30,21 @@
             margin-top: 40px;
         }
 
+        .box-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
         .box {
             background-color: green;
             width: 120px;
             height: 40px;
             border-radius: 10px;
-            margin-left: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
         }
 
         .box2 {
@@ -41,16 +52,17 @@
             width: 120px;
             height: 40px;
             border-radius: 10px;
-            margin-left: 250px;
-            font-size: 30px;
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
         }
 
+    
         #bottombox {
-        margin-left: 400px;
+            margin-left: 400px;
             width: 500px;
             height: 500px;
-            
         }
 
         .big-box {
@@ -61,29 +73,24 @@
             background-color: red;
             border-radius: 25px;
         }
-        .little-box1{    margin: 0px auto;
-           margin-left: 650px;
-            width: 200px;
-            height: 345px;
-            background-color:red;
-            border-radius: 20px;
-         }
-         .little-box2{margin-top: 10px;
-           margin-left: 650px;
+
+        
+        .little-box1,
+        .little-box2,
+        .retangle-box {
+            margin-left: 650px;
             width: 200px;
             height: 345px;
             background-color: red;
             border-radius: 20px;
+            margin-top: 10px;
+        }
 
-         }
-         .retangle-box{margin-top: 10px;
-           margin-left: 220px;
+        .retangle-box {
+            margin-left: 220px;
             width: 200px;
             height: 700px;
-            background-color: red;
-            border-radius: 20px;
-}
-
+        }
     </style>
 
 </head>
@@ -91,35 +98,29 @@
 <body>
     <div>
         <div id="topbox">
-            <div class="circle"> </div>
+            <div class="circle"></div>
 
             <div class="text">
                 <h1> Vinicius Daniel</h1>
-                <h3> Stundent, part-time worker </h3>
-                <div class="box2">GitHub </div>
-                <br>
-                <div class="box"> </div>
-                  
-               
+                <h3> Student, part-time worker </h3>
+                <div class="box-container">
+                    <div class="box">
+                        <p style="margin: 0;"> github </p>
+                    </div>
+                    <div class="box2">
+                        <p style="margin: 0;"> linkedin </p>
+                    </div>
+                </div>
             </div>
         </div>
-
-
 
         <div id="bottombox">
             <div class="big-box">
                 <div class="little-box1">
-                    <div class="retangle-box">
-
-                    </div>
+                    <div class="retangle-box"></div>
                 </div>
-                <div class="little-box2">
-                    
-                </div>
-                
-
-        </div>
-            
+                <div class="little-box2"></div>
+            </div>
         </div>
     </div>
 </body>
