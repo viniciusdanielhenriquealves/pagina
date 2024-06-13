@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       
         * {
             font-family: roboto, sans-serif;
         }
 
-    
         #topbox {
             display: flex;
             flex-direction: column;
@@ -22,7 +20,7 @@
         }
 
         .circle {
-            background:url(https://files.passeidireto.com/c9f97d56-75d4-48e3-991c-521d60bb4aa3/c9f97d56-75d4-48e3-991c-521d60bb4aa3.jpeg);
+            background: url(https://files.passeidireto.com/c9f97d56-75d4-48e3-991c-521d60bb4aa3/c9f97d56-75d4-48e3-991c-521d60bb4aa3.jpeg);
             border-radius: 50%;
             width: 150px;
             height: 150px;
@@ -30,7 +28,7 @@
             margin-top: 40px;
             background-position: 30% 10%;
             background-size: cover;
-            background-repeat: no-repeat ;
+            background-repeat: no-repeat;
         }
 
         .box-container {
@@ -40,88 +38,101 @@
         }
 
         .container {
-    text-align: center;
-}
-
-.styled-button {
-    background-color: #4CAF50; /* Verde */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-    border-radius: 8px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    display: inline-block;
-    margin: 10px;
-}
-
-.styled-button:hover {
-    background-color: #45a049;
-    transform: scale(1.05);
-}
-
-.styled-button:active {
-    background-color: #3e8e41;
-    transform: scale(0.95);
-}
-
-
-        .box2 {
-            background-color: green;
-            width: 120px;
-            height: 40px;
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 20px;
+            text-align: center;
         }
 
-    
+        .styled-button {
+            background-color: whitesmoke;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 8px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px; /* Espaço entre o ícone e o texto */
+        }
+
+        .styled-button img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .box2 {
+            text-align: center;
+        }
+
         #bottombox {
             margin-left: 500px;
             width: 500px;
             height: 500px;
         }
 
-        .big-box{
+        .big-box {
             margin-left: 10px;
             margin-top: -50px;
             width: 300px;
             height: 320px;
-            background-color: red;
             border-radius: 25px;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLhcxC5lGHR7Tf8ipXYnXbKwlD8Jjcfr1GSw&s);
+            background-position: center;
+            background-size: cover;
         }
 
-        .big_box2{
+        .big_box2 {
             margin-left: 510px;
-            margin-top: -120px;
+            margin-top: -150px;
             width: 300px;
-            height: 320px;
-            background-color: red;
+            height: 250px;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfd3E-zeiOziqEiKbZnsrbCfkUh6RkQZFZbQ&s);
             border-radius: 25px;
-
+            background-position: center;
+            background-size: cover;
         }
-        
-        .little-box1,
-        .little-box2,
-        .retangle-box {
+
+        .little-box1 {
             margin-left: 350px;
             width: 200px;
-            height: 345px;
-            background-color: red;
+            height: 320px;
+            background: url(https://static.poder360.com.br/2021/08/messi-contrato-barcelona.jpg);
+            background-position: center;
+            background-size: cover;
             border-radius: 20px;
             margin-top: 10px;
+        }
+
+        .little-box2 {
+            margin-left: 350px;
+            width: 200px;
+            height: 250px;
+            background: url(https://static.ndmais.com.br/2024/06/dieta-messi.jpg);
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
+            margin-top: 30px;
         }
 
         .retangle-box {
             margin-left: 220px;
             width: 200px;
-            height: 700px;
+            height: 600px;
+            background: url(https://imgproxy.ojc.com.br/insecure/fit/800/927/ce/0/plain/http%3A%2F%2Fwww.jornaldotocantins.com.br%2Fpolopoly_fs%2F1.1262949.1492984735%21%2Fimage%2Fimage.JPG_gen%2Fderivatives%2Flandscape_800%2Fimage.JPG);
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+
+        .box-space {
+            width: 200px;
+            height: 630px;
+        }
+
+        p {
+            color: black;
         }
     </style>
 
@@ -137,10 +148,16 @@
                 <h3> Student, part-time worker </h3>
                 <div class="box-container">
                     <div class="container">
-                        <a href="https://www.instagram.com/vinicius_daniel_henrique_alvek/#" class="styled-button" target="_blank">Instagram</a>
+                        <a href="https://www.instagram.com/vinicius_daniel_henrique_alvek/#" class="styled-button" target="_blank">
+                            <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram">
+                            <p>Instagram</p>
+                        </a>
                     </div>
                     <div class="box2">
-                        <p style="margin: 0;"> github   </p>
+                        <a href="https://github.com/viniciusdanielhenriquealves" class="styled-button" target="_blank">
+                            <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub">
+                            <p>GitHub</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -155,7 +172,7 @@
             </div>
         </div>
         <div class="big_box2">
-
+            <div class="box-space"></div>
         </div>
     </div>
 </body>
