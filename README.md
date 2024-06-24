@@ -14,8 +14,8 @@
             display: flex;
             flex-direction: column;
             text-align: center;
-            width: 500px;
-            height: 500px;
+            width: 550px;
+            height: 550px;
             margin: 0 auto;
         }
 
@@ -24,11 +24,12 @@
             border-radius: 50%;
             width: 150px;
             height: 150px;
-            margin-left: 170px;
+            margin-left: 200px;
             margin-top: 40px;
             background-position: 30% 10%;
             background-size: cover;
             background-repeat: no-repeat;
+            border: black solid;
         }
 
         .box-container {
@@ -135,9 +136,11 @@
             height: 630px;
         }
 
-        p {
-            color: black;
-        }
+        p { color: black;}
+
+        h3,h4{color: rgb(107, 107, 107);}
+        h4{margin-right: 320px;}
+
     </style>
 
 </head>
@@ -150,6 +153,10 @@
             <div class="text">
                 <h1> Vinicius Daniel</h1>
                 <h3> Student, part-time worker </h3>
+
+                <h4>Social</h4>
+              
+                
                 <div class="box-container">
                     <div class="container">
                         <a href="https://www.instagram.com/vinicius_daniel_henrique_alvek/#" class="styled-button" target="_blank">
