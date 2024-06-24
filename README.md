@@ -53,7 +53,10 @@
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
             display: inline-flex;
             align-items: center;
-            gap: 10px; /* Espaço entre o ícone e o texto */
+            gap: 10px; /*toma gap*/
+            margin-top: 15px;
+            width: 100px;
+            height: 45px;
         }
 
         .styled-button img {
@@ -69,6 +72,7 @@
             margin-left: 500px;
             width: 500px;
             height: 500px;
+            margin-top: 80px;
         }
 
         .big-box {
@@ -149,15 +153,27 @@
                 <div class="box-container">
                     <div class="container">
                         <a href="https://www.instagram.com/vinicius_daniel_henrique_alvek/#" class="styled-button" target="_blank">
-                            <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram">
+                            <img src="img/icons8-instagram-30.png" alt="Instagram">
                             <p>Instagram</p>
                         </a>
+                        <div>
+                            <a href="https://www.leagueofgraphs.com/pt/summoner/br/hightoelo-fmelo" class="styled-button" target="_blank">
+                                <img src="img/icons8-jogos-de-motim-30.png" alt="GitHub">
+                                <p> Lolzinho </p>
+                            </a>
+                        </div>
                     </div>
                     <div class="box2">
                         <a href="https://github.com/viniciusdanielhenriquealves" class="styled-button" target="_blank">
-                            <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub">
+                            <img src="img/icons8-github-30.png" alt="GitHub">
                             <p>GitHub</p>
                         </a>
+                        <div>
+                            <a href="https://www.twitch.tv/pelotinha_bola" class="styled-button" target="_blank">
+                                <img src="img/twich_logo_icon_134450.png" alt="twitch">
+                                <p>twitch</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
